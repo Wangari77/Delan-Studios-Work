@@ -57,6 +57,20 @@ h1 {
     color: black;
 }
 #design {
-    padding: 30px;
+    padding: 90px;
+    float: left;
 }
 
+#dev {
+    padding:90px;
+    /* float: left; */
+    /* position: absolute; */
+    top: 245%;
+    left: 100%;
+
+    
+}
+
+.float {
+    float: left;
+}
