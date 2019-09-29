@@ -14,4 +14,14 @@ $(document).ready(function() {
       $("#click3").toggle();
     });
   });
+
+$(document).ready(function(){
+    $(".opaque").hover(function(){
+      $(this).css("opacity", "0.5");
+      $(this).find(".hoverable").show();
+      }, function(){
+      $(this).css("opacity", "1");
+      $(this).find(".hoverable").hide();
+    });
+  });
  
