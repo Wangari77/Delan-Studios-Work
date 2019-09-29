@@ -120,3 +120,16 @@ h1 {
 .thick {
     border: solid white;
 }
+
+.message {
+    padding-left: 321px;
+
+}
+
+.message textarea {
+    height: 300px;
+    width: 945px;
+}
+.part7 {
+    text-align: center;
+}
