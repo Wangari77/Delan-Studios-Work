@@ -24,4 +24,15 @@ $(document).ready(function(){
       $(this).find(".hoverable").hide();
     });
   });
- 
+
+function details(){
+  var name =document.forms["details"]["name"].value;
+  var email=document.forms["details"]['email'].value;
+}
+
+document.getElementById("answer").style.display = "block";
+document.getElementById("alert").innerHTML=name;
+return name
+
+}
+
