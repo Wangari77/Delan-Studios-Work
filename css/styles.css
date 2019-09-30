@@ -132,4 +132,9 @@ h1 {
 }
 .part7 {
     text-align: center;
+    padding-top: 40px;
+}
+
+::placeholder{
+    color: white;
 }
