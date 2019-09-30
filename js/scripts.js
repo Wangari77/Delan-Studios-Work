@@ -25,14 +25,10 @@ $(document).ready(function(){
     });
   });
 
-function details(){
-  var name =document.forms["details"]["name"].value;
-  var email=document.forms["details"]['email'].value;
-}
-
-document.getElementById("answer").style.display = "block";
-document.getElementById("alert").innerHTML=name;
-return name
-
-}
+$(document).ready(function(){
+  $("form").submit(function(event){
+    var name= $("input#name").val();
+    alert("Hey " + name + " We shall get back to you shortly");
+  });
+});
 
