@@ -28,7 +28,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("form").submit(function(event){
     var name= $("input#name").val();
-    alert("Hey " + name + " We shall get back to you shortly");
+    alert("Hey " + name + " Thank you for reaching out to us.");
   });
 });
 
