@@ -150,26 +150,30 @@
     </div>
     <div class="part6">
         <img src="assets/backgrounds/c_image.jpg" width=100%>
-        <div class ="contacts">
+        <div class="contacts">
             <h2><b>CONTACT US</b></h2>
         </div>
-                <form id="form1" >
-                    <form name="details" onsubmit="event.preventDefault(); details()">
-                    <div class="form-row first-name">
-                        <div class="col-md-6" style="width:300px">
-                            <input style="background-color: transparent" type="text" class="form-control" placeholder="Name...">
-                        </div>
-                        <div class="col-md-6">
-                            <input style="background-color: transparent" type="text" class="form-control" placeholder="Email...">
-                        </div>
-                    </div><br>
-                        <div class ="col-md-12 message">
-                            <textarea class="haia" style ="background-color:transparent" type="text" class="form-control" placeholder="Your message here..."></textarea>
-                        <in
-                        </div>
-                </form>
-        </div><br><br>
-    <div class ="part7">
+        <form id="form1">
+            <form name="details" onsubmit="event.preventDefault(); details()">
+                <div class="form-row first-name">
+                    <div class="col-md-6" style="width:300px">
+                        <input style="background-color: transparent" id="name" type="text" class="form-control"
+                            placeholder="Name">
+                    </div>
+                    <div class="col-md-6">
+                        <input style="background-color: transparent" id="email" type="text" class="form-control"
+                            placeholder="Email">
+                    </div>
+                </div><br>
+                <div class="col-md-12 message">
+                    <textarea class="haia" style="background-color:transparent" id="message" type="text"
+                        class="form-control" placeholder="Your message here..."></textarea>
+                    <button class="submit" name="submit">Submit</button>
+                </div>
+
+            </form>
+    </div><br><br>
+    <div class="part7">
         <img src="assets/social_icons/twitter.png">
         <img src="assets/social_icons/dribble.png">
         <img src="assets/social_icons/facebook.png">
@@ -178,9 +182,10 @@
         <img src="assets/social_icons/stumble_upon.png">
         <img src="assets/social_icons/behance.png">
         <img src="assets/social_icons/pinterest.png">
-        <img src="assets/social_icons/flickr.png"><br><br>
+        <img src="assets/social_icons/flickr.png">
         <p>Delani Studio</p>
         <p>2019</p>
     </div>
 </body>
+
 </html>
